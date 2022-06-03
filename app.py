@@ -33,6 +33,7 @@ def main() :
     #     st.write('')
     #     image = Image.open('image/dia.png')
     #     st.image(image, use_column_width=True)
+    # 
 
 if __name__ == '__main__' :
     main()

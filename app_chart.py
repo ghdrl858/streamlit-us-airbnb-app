@@ -6,7 +6,7 @@ import seaborn as sns
 
 def run_chart() :
     st.header(' Diamonds_Chart')
-    st.write('''##### ° 
+    st.write('''##### 
     
     
     

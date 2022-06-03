@@ -6,7 +6,7 @@ from PIL import Image
 
 def run_info() :
     st.header('')
-    st.write('''##### ° 
+    st.write('''##### 
     
     
     

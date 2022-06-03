@@ -8,7 +8,7 @@ import plotly.express as px
 
 def run_ml():
     st.header('')
-    st.write('''##### ° 
+    st.write('''#####
     
     
     
