@@ -3,6 +3,7 @@ import pandas as pd
 from PIL import Image
 
 def run_home() :
+    st.header('')
     st.write('''##### 
     
     

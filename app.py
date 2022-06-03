@@ -11,18 +11,17 @@ from app_ml import run_ml
 def main() :
 
     st.title('')
-
-    menu = ['Home', 'info', 'Chart', 'ML']
     
-    choice = st.sidebar.selectbox('메뉴 선택', menu)
+    menu = ['Home', 'Info', 'Chart', 'ML']
 
-    if choice == 'Home' :
+    choice = st.sidebar.radio('Choice Menu', menu)
+    if choice == menu[0] :
         run_home()
-    elif choice == 'Info':
+    elif choice == menu[1] :
         run_info()
-    elif choice == 'Chart':
+    elif choice == menu[2] :
         run_chart()
-    elif choice == 'ML':
+    elif choice == menu[3] :
         run_ml()
         
     # 이미지 구현

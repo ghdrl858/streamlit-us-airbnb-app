@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def run_chart() :
-    st.header(' Diamonds_Chart')
+    st.header('')
     st.write('''##### 
     
     
