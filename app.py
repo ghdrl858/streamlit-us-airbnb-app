@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
+from st_on_hover_tabs import on_hover_tabs
+import streamlit as st
 from app_home import run_home
 from app_info import run_info
 from app_chart import run_chart
@@ -22,10 +24,7 @@ def main() :
         run_chart()
     elif choice == 'ML':
         run_ml()
-
-    with st.sidebar() :
-        pass
-   
+        
     # 이미지 구현
     # with st.sidebar :
     #     st.write('')
