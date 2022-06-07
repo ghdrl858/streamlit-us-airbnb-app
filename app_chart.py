@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def run_chart() :
-    st.header('')
+    st.header('📊 US_AirBNB - Chart')
     st.write('''##### 
     
     

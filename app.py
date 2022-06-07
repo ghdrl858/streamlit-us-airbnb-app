@@ -38,7 +38,8 @@ def main() :
         if st.sidebar.checkbox('💡 각 컬럼 설명') :
             run_info()
     elif choice == menu[2] :
-        run_chart()
+        if st.sidebar.checkbox('📋 그래프 확인') :
+            run_chart()
     elif choice == menu[3] :
         run_ml()
 
