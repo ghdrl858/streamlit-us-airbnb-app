@@ -87,6 +87,6 @@ def run_info() :
 ###### ✔️ 여기서 '***Shared room***' 는 '***Dormitory***', '기숙사형' 이라 하며, 침대 단위의 객실을 제공하는 객실을 의미합니다.
                 ''')
 
-    # 이미지 영역 설정 후 넣기
-    image = Image.open('image/hotel_room.png')
-    st.image(image, use_column_width=True, caption = '< Room type - Hotel room >')
+        # 이미지 영역 설정 후 넣기
+        image = Image.open('image/hotel_room.png')
+        st.image(image, use_column_width=True, caption = '< Room type - Hotel room >')
